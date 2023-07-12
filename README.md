@@ -6,7 +6,7 @@ This API provides information about cryptocurrencies.
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-- - [API Usage](#api-usage)
+  - [API Usage](#api-usage)
 - [Features](#features)
 - [Fetch all](#fetch-all)
 - [Search](#search)
@@ -24,13 +24,14 @@ To get started with the Crypto API, you can follow the instructions provided in 
 
 To use this API, you can send HTTP requests to the provided endpoints using your preferred programming language or tool. Here's an example code snippet using JavaScript and the `fetch` function:
 
+Javascript
 ```javascript
 fetch('https://sore-gold-chimpanzee-yoke.cyclic.app/crypto/api/id/1')
   .then(res => res.json())
   .then(json => console.log(json));
 ```
-
-```The response will be in the following format:
+The response will be in the following format:
+```
 {
   "id": 1,
   "name": "0xBitcoin",
